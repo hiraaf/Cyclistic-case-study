@@ -148,6 +148,6 @@ Reflects leisure, sightseeing, social outings and recreational use.
 
 To convert casual riders to members:
 1. Promote memberships at Tourists hotspots/Social hubs
-2. Partner with Museums, Parks, Retail/Dining Hubs for ride incentives and emphasizing cost savings of memberships for frequent leisure
+2. Partner with Museums, Parks, Retail/Dining Hubs for ride incentives and emphasize cost saving of membership for frequent leisure
 3. Weekend Membership trials and bundled offers with leisure activities.
 
