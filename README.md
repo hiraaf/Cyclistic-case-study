@@ -20,6 +20,11 @@ Data provided by Divvy [licensed for use](https://divvybikes.com/data-license-ag
 12 months of data (March 2024 - February 2025)  
 There are 12 monthly datasets, each with 13 columns of trip information. 
 
+## Tools & Technologies Used
+
+- Bigquery for SQL-based data cleaning, transformation and analysis
+- Tableau for data visualization
+
 ## Data Combining
 
 The 12 monthly datasets were combined into a single table with 5,783,100 rows.  
@@ -82,8 +87,10 @@ Casuals
 #### Weekday, Part of the day and Hour
 
 Weekday:
- - Members top 3 day are Wednesday, Tuesday, and Thursday
- - Casuals top 3 days are Saturday, Sunday and Friday
+- Members exhibit work-related commuting patterns:
+  - Highest usage on weekdays (Tue-Thu), suggesting regular employment schedules.
+- Casual riders show leisure/recreational patterns:
+  - Highest usage on weekends (Sat-Sun) and Fridays, suggesting free-time usage.
 
 ![weekday (2)](https://github.com/user-attachments/assets/e6f19b21-1a75-430d-aaa7-9cfb999efad7)
 
@@ -96,20 +103,51 @@ Evening: 5-9 PM
 - Member
   - Rides peak in the afternoon
   - Evening usage remaining nearly as strong (within 30,000 rides) and morning activity following closely (within 50,000 rides).
+  -  Reinforcing routine, utilitarian use such as commuting or errands.
 - Casual ridership
   - Peaks in the afternoon
-  - Also shows significant usage in the evening hours.
+  - Also shows significant usage in the evening hours, indicating sightseeing and dining/nightlife-related trips
 
 ![part of day-2](https://github.com/user-attachments/assets/d54fada3-4f9d-45bf-af20-eb5e761e9d20)
 
 Hour:
 - Members:
-  - Primary peak: 5 PM (with elevated ridership 4-6 PM)
-  - Secondary peak: 7-9 AM
+  - Primary peak: 5 PM, with strong ridership sustained between 4-6 PM (end of work-day)
+  - Secondary peak: 7-9 AM (start of work-day)
 - Casuals:
   - Primary peak: 5 PM (with elevated ridership 3-6 PM)
   - Secondary peak: 12-2 PM
+  - Peaks align with sightseeing, lunch breaks, or social outings.
 
 ![weekday (4)-2](https://github.com/user-attachments/assets/14c76a0a-2674-4716-9a6f-1f41309c9d20)
 
+#### Stations frequency
+
+Top 3 stations for members and nearby areas:
+- Kingsbury St & Kinze St: Apartments, neighbhoods, the loop: a central business district, universities
+- Clinton St & Washington Blvd: The loop, a central business district and Fulton River District, a neighborhood
+- Clark St & Elm St: Apartments, Library, Church
+
+Top 3 stations for casuals and nearby areas:
+- Streeter Dr & Grand Ave: Pier, parks, museums, section called the Magnificient Mile that is devoted to retail, dining, and tourist attraction.
+- Dusable Lakeshore Dr & Monroe St Station: Nearby area are parks, Chicago loop, and museums
+- Michigan Ave & Oak St: Shopping Centers, Museums, Magnificient Mile, Neighborhood
+
+Members primarily use stations near:
+- Residential areas (apartments, neighborhoods)
+-  Business districts (The Loop, universities)
+-  Practical stops (library, church)
+Reinfroces routine and utilitarian use such as home-to-work commuting.
+
+Casual riders favor stations near:
+- Tourist attractions & scenic areas (parks, museums, piers, shopping districts)
+- Retail/dining hubs (Magnificent Mile)
+Reflects leisure, sightseeing, social outings and recreational use.
+
+## Recommendations
+
+To convert casual riders to members:
+1. Promote memberships at Tourists hotspots/Social hubs
+2. Partner with Museums, Parks, Retail/Dining Hubs for ride incentives and emphasizing cost savings of memberships for frequent leisure
+3. Weekend Membership trials and bundled offers with leisure activities.
 
